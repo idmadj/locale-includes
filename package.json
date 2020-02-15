@@ -1,0 +1,45 @@
+{
+  "name": "locale-includes",
+  "version": "1.0.0",
+  "description": "String.prototype.includes() but using localeCompare.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "build:watch": "babel src -d lib -w",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmadj/locales-includes.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idmadj/locales-includes/issues"
+  },
+  "homepage": "https://github.com/idmadj/locales-includes#readme",
+  "keywords": [
+    "locale",
+    "includes",
+    "contains",
+    "string",
+    "localecompare",
+    "search",
+    "filter",
+    "match",
+    "diacritics",
+    "accents",
+    "case",
+    "insensitive",
+    "i18n",
+    "esm",
+    "module"
+  ],
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
