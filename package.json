@@ -1,6 +1,6 @@
 {
   "name": "locale-includes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "String.prototype.includes() but using localeCompare.",
   "main": "lib/index.js",
   "directories": {
@@ -39,8 +39,8 @@
     "module"
   ],
   "dependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6"
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11"
   }
 }
